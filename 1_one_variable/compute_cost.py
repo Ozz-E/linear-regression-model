@@ -12,6 +12,7 @@ def compute_cost(X, y, theta):
     # get number of training examples
     m = y.shape[0]
 
+    # compute cost
     for i in range(m):
         hypothesis = calculate_hypothesis(X, theta, i)
         output = y[i]
