@@ -2,6 +2,10 @@ import matplotlib.pyplot as plt
 import os
 
 def plot_cost(cost):
+
+    '''
+    This function plots the cost function.
+    '''
     
     fig, ax1 = plt.subplots()
     ax1.set_xlabel('Iterations')
