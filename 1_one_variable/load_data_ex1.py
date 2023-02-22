@@ -1,6 +1,10 @@
 import numpy as np
 
 def load_data_ex1():
+
+    '''
+    This function loads the data from the ex1 dataset.
+    '''
     # loads the data for excercise 1
     
     # read our data from a text file
