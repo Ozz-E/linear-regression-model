@@ -2,6 +2,11 @@ import matplotlib.pyplot as plt
 from hypothesis_to_vector import *
 
 def plot_hypothesis(X, y, theta, ax1):
+
+    '''
+    This function plots the hypothesis of the model.
+
+    '''
     
     # clear subplot from previous (if any) drawn stuff
     ax1.clear()
