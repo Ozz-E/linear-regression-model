@@ -43,6 +43,7 @@ def gradient_descent(X, y, theta, alpha, iterations, do_plot):
         theta = theta_temp.copy()
 
         # append current iteration's cost to cost_vector
+
         iteration_cost = compute_cost(X, y, theta)
         cost_vector = np.append(cost_vector, iteration_cost)
         
