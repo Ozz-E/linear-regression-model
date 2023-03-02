@@ -1,7 +1,7 @@
 import numpy as np
 
 def load_data_ex2():
-    # loads the data for excercise 2
+    # loads the data for exercise 2
     
     # read our data from a text file
     data = np.loadtxt("ex1data2.txt", comments="#", delimiter=",", unpack=False)
