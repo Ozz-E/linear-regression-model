@@ -2,6 +2,14 @@ import matplotlib.pyplot as plt
 from hypothesis_to_vector import *
 
 def plot_hypothesis(X, y, theta, ax1):
+    """ This function plots the hypothesis given parameters of X, y and theta
+
+    Args:
+        :param X            : 2D array of our dataset
+        :param y            : 1D array of the ground truth labels of the dataset
+        :param theta        : 1D array of the trainable parameters
+        :plot ax1           : subplot for plotting
+    """    
     # clear subplot from previous (if any) drawn stuff
     ax1.clear()
     # set label of horizontal axis
