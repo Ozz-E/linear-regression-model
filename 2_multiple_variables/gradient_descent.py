@@ -17,6 +17,7 @@ def gradient_descent(X, y, theta, alpha, iterations, do_plot):
     
     # Create just a figure and only one subplot
     fig, ax1 = plt.subplots()
+    
     if do_plot is True:
         plot_hypothesis(X, y, theta, ax1)
 
